@@ -1,0 +1,60 @@
+[0.024s] Invoking command in '/home/yanjiun68/workspace/Turtlesim_lc_demo/build/turtlesim_lc_interfaces': CMAKE_PREFIX_PATH=/home/yanjiun68/workspace/putrabot/install/voice:/home/yanjiun68/workspace/putrabot/install/vision:/home/yanjiun68/workspace/putrabot/install/robot_description:/home/yanjiun68/workspace/putrabot/install/realsense2_description:/home/yanjiun68/workspace/putrabot/install/realsense2_camera:/home/yanjiun68/workspace/putrabot/install/realsense2_camera_msgs:/home/yanjiun68/workspace/putrabot/install/putrabot_base:/home/yanjiun68/workspace/putrabot/install/my_robot_nav:/home/yanjiun68/workspace/putrabot/install/lift_moveit_config:/home/yanjiun68/workspace/putrabot/install/lift_description:/home/yanjiun68/workspace/humble_ws/install/undo_path_global_planner:/home/yanjiun68/workspace/humble_ws/install/sr_event_countdown:/home/yanjiun68/workspace/humble_ws/install/sr_conditional:/home/yanjiun68/workspace/humble_ws/install/sm_three_some:/home/yanjiun68/workspace/humble_ws/install/sm_pack_ml:/home/yanjiun68/workspace/humble_ws/install/sm_multi_stage_1:/home/yanjiun68/workspace/humble_ws/install/sm_advanced_recovery_1:/home/yanjiun68/workspace/humble_ws/install/sr_all_events_go:/home/yanjiun68/workspace/humble_ws/install/multirole_sensor_client:/home/yanjiun68/workspace/humble_ws/install/smacc2_msgs:/home/yanjiun68/workspace/humble_ws/install/sm_simple_action_client:/home/yanjiun68/workspace/humble_ws/install/sm_panda_moveit2z_cb_inventory:/home/yanjiun68/workspace/humble_ws/install/sm_panda_cl_moveit2z_cb_inventory:/home/yanjiun68/workspace/humble_ws/install/sm_multithread_test_1:/home/yanjiun68/workspace/humble_ws/install/sm_coretest_transition_speed_1:/home/yanjiun68/workspace/humble_ws/install/sm_cl_ros2_timer_unit_test_1:/home/yanjiun68/workspace/humble_ws/install/sm_cl_keyboard_unit_test_1:/home/yanjiun68/workspace/humble_ws/install/sm_branching:/home/yanjiun68/workspace/humble_ws/install/sm_atomic_subscribers_performance_test:/home/yanjiun68/workspace/humble_ws/install/sm_atomic_performance_trace_1:/home/yanjiun68/workspace/humble_ws/install/sm_atomic_mode_states:/home/yanjiun68/workspace/humble_ws/install/sm_atomic_lifecycle:/home/yanjiun68/workspace/humble_ws/install/sm_atomic_http:/home/yanjiun68/workspace/humble_ws/install/sm_atomic:/home/yanjiun68/workspace/humble_ws/install/ros_timer_client:/home/yanjiun68/workspace/humble_ws/install/pure_spinning_local_planner:/home/yanjiun68/workspace/humble_ws/install/forward_local_planner:/home/yanjiun68/workspace/humble_ws/install/backward_global_planner:/home/yanjiun68/workspace/humble_ws/install/forward_global_planner:/home/yanjiun68/workspace/humble_ws/install/backward_local_planner:/home/yanjiun68/workspace/humble_ws/install/nav2z_planners_common:/home/yanjiun68/workspace/humble_ws/install/nav2z_client:/home/yanjiun68/workspace/putrabot/install/mediapipe_ros:/home/yanjiun68/workspace/putrabot/install/lift_bridge:/opt/ros/humble:/home/yanjiun68/workspace/humble_ws/install/my_robot_moveit_config:/home/yanjiun68/workspace/humble_ws/install/moveit2z_client:/home/yanjiun68/workspace/humble_ws/install/lifecyclenode_client:/home/yanjiun68/workspace/humble_ws/install/keyboard_client:/home/yanjiun68/workspace/humble_ws/install/http_client:/home/yanjiun68/workspace/humble_ws/install/eg_random_generator:/home/yanjiun68/workspace/humble_ws/install/eg_conditional_generator:/home/yanjiun68/workspace/humble_ws/install/cl_ros2_timer:/home/yanjiun68/workspace/humble_ws/install/cl_nav2z:/home/yanjiun68/workspace/humble_ws/install/cl_moveit2z:/home/yanjiun68/workspace/humble_ws/install/cl_keyboard CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/yanjiun68/workspace/Turtlesim_lc_demo/src/turtlesim_lc_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yanjiun68/workspace/Turtlesim_lc_demo/install/turtlesim_lc_interfaces
+[0.295s] -- The C compiler identification is GNU 11.4.0
+[0.469s] -- The CXX compiler identification is GNU 11.4.0
+[0.486s] -- Detecting C compiler ABI info
+[0.640s] -- Detecting C compiler ABI info - done
+[0.654s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.654s] -- Detecting C compile features
+[0.655s] -- Detecting C compile features - done
+[0.661s] -- Detecting CXX compiler ABI info
+[0.861s] -- Detecting CXX compiler ABI info - done
+[0.882s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.883s] -- Detecting CXX compile features
+[0.884s] -- Detecting CXX compile features - done
+[0.911s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.853s] -- Found Python3: /home/yanjiun68/miniconda3/bin/python3 (found version "3.13.11") found components: Interpreter 
+[2.026s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.161s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.211s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.353s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.477s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.565s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.796s] CMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[2.797s]   execute_process(/home/yanjiun68/miniconda3/bin/python3 -m rosidl_adapter
+[2.797s]   --package-name turtlesim_lc_interfaces --arguments-file
+[2.797s]   /home/yanjiun68/workspace/Turtlesim_lc_demo/build/turtlesim_lc_interfaces/rosidl_adapter__arguments__turtlesim_lc_interfaces.json
+[2.797s]   --output-dir
+[2.797s]   /home/yanjiun68/workspace/Turtlesim_lc_demo/build/turtlesim_lc_interfaces/rosidl_adapter/turtlesim_lc_interfaces
+[2.797s]   --output-file
+[2.797s]   /home/yanjiun68/workspace/Turtlesim_lc_demo/build/turtlesim_lc_interfaces/rosidl_adapter/turtlesim_lc_interfaces.idls)
+[2.798s]   returned error code 1:
+[2.798s] 
+[2.798s]   Traceback (most recent call last):
+[2.798s] 
+[2.798s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[2.798s]     File "<frozen runpy>", line 88, in _run_code
+[2.798s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.799s]       sys.exit(main())
+[2.799s]                ~~~~^^
+[2.799s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[2.799s]       abs_idl_file = convert_to_idl(
+[2.799s]           pathlib.Path(basepath), args.package_name,
+[2.799s]           pathlib.Path(relative_path), output_dir)
+[2.799s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[2.800s]       from rosidl_adapter.msg import convert_msg_to_idl
+[2.800s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[2.800s]       from rosidl_adapter.resource import expand_template
+[2.800s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[2.800s]       import em
+[2.800s] 
+[2.800s]   ModuleNotFoundError: No module named 'em'
+[2.800s] 
+[2.801s] Call Stack (most recent call first):
+[2.801s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.801s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.801s] 
+[2.801s] 
+[2.801s] -- Configuring incomplete, errors occurred!
+[2.801s] See also "/home/yanjiun68/workspace/Turtlesim_lc_demo/build/turtlesim_lc_interfaces/CMakeFiles/CMakeOutput.log".
+[2.809s] Invoked command in '/home/yanjiun68/workspace/Turtlesim_lc_demo/build/turtlesim_lc_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/yanjiun68/workspace/putrabot/install/voice:/home/yanjiun68/workspace/putrabot/install/vision:/home/yanjiun68/workspace/putrabot/install/robot_description:/home/yanjiun68/workspace/putrabot/install/realsense2_description:/home/yanjiun68/workspace/putrabot/install/realsense2_camera:/home/yanjiun68/workspace/putrabot/install/realsense2_camera_msgs:/home/yanjiun68/workspace/putrabot/install/putrabot_base:/home/yanjiun68/workspace/putrabot/install/my_robot_nav:/home/yanjiun68/workspace/putrabot/install/lift_moveit_config:/home/yanjiun68/workspace/putrabot/install/lift_description:/home/yanjiun68/workspace/humble_ws/install/undo_path_global_planner:/home/yanjiun68/workspace/humble_ws/install/sr_event_countdown:/home/yanjiun68/workspace/humble_ws/install/sr_conditional:/home/yanjiun68/workspace/humble_ws/install/sm_three_some:/home/yanjiun68/workspace/humble_ws/install/sm_pack_ml:/home/yanjiun68/workspace/humble_ws/install/sm_multi_stage_1:/home/yanjiun68/workspace/humble_ws/install/sm_advanced_recovery_1:/home/yanjiun68/workspace/humble_ws/install/sr_all_events_go:/home/yanjiun68/workspace/humble_ws/install/multirole_sensor_client:/home/yanjiun68/workspace/humble_ws/install/smacc2_msgs:/home/yanjiun68/workspace/humble_ws/install/sm_simple_action_client:/home/yanjiun68/workspace/humble_ws/install/sm_panda_moveit2z_cb_inventory:/home/yanjiun68/workspace/humble_ws/install/sm_panda_cl_moveit2z_cb_inventory:/home/yanjiun68/workspace/humble_ws/install/sm_multithread_test_1:/home/yanjiun68/workspace/humble_ws/install/sm_coretest_transition_speed_1:/home/yanjiun68/workspace/humble_ws/install/sm_cl_ros2_timer_unit_test_1:/home/yanjiun68/workspace/humble_ws/install/sm_cl_keyboard_unit_test_1:/home/yanjiun68/workspace/humble_ws/install/sm_branching:/home/yanjiun68/workspace/humble_ws/install/sm_atomic_subscribers_performance_test:/home/yanjiun68/workspace/humble_ws/install/sm_atomic_performance_trace_1:/home/yanjiun68/workspace/humble_ws/install/sm_atomic_mode_states:/home/yanjiun68/workspace/humble_ws/install/sm_atomic_lifecycle:/home/yanjiun68/workspace/humble_ws/install/sm_atomic_http:/home/yanjiun68/workspace/humble_ws/install/sm_atomic:/home/yanjiun68/workspace/humble_ws/install/ros_timer_client:/home/yanjiun68/workspace/humble_ws/install/pure_spinning_local_planner:/home/yanjiun68/workspace/humble_ws/install/forward_local_planner:/home/yanjiun68/workspace/humble_ws/install/backward_global_planner:/home/yanjiun68/workspace/humble_ws/install/forward_global_planner:/home/yanjiun68/workspace/humble_ws/install/backward_local_planner:/home/yanjiun68/workspace/humble_ws/install/nav2z_planners_common:/home/yanjiun68/workspace/humble_ws/install/nav2z_client:/home/yanjiun68/workspace/putrabot/install/mediapipe_ros:/home/yanjiun68/workspace/putrabot/install/lift_bridge:/opt/ros/humble:/home/yanjiun68/workspace/humble_ws/install/my_robot_moveit_config:/home/yanjiun68/workspace/humble_ws/install/moveit2z_client:/home/yanjiun68/workspace/humble_ws/install/lifecyclenode_client:/home/yanjiun68/workspace/humble_ws/install/keyboard_client:/home/yanjiun68/workspace/humble_ws/install/http_client:/home/yanjiun68/workspace/humble_ws/install/eg_random_generator:/home/yanjiun68/workspace/humble_ws/install/eg_conditional_generator:/home/yanjiun68/workspace/humble_ws/install/cl_ros2_timer:/home/yanjiun68/workspace/humble_ws/install/cl_nav2z:/home/yanjiun68/workspace/humble_ws/install/cl_moveit2z:/home/yanjiun68/workspace/humble_ws/install/cl_keyboard CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/yanjiun68/workspace/Turtlesim_lc_demo/src/turtlesim_lc_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yanjiun68/workspace/Turtlesim_lc_demo/install/turtlesim_lc_interfaces

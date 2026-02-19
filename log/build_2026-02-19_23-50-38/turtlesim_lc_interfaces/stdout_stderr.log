@@ -1,0 +1,26 @@
+[  9%] Built target turtlesim_lc_interfaces__rosidl_generator_c
+[ 12%] Built target turtlesim_lc_interfaces__cpp
+[ 12%] Built target ament_cmake_python_symlink_turtlesim_lc_interfaces
+[ 22%] Built target turtlesim_lc_interfaces__rosidl_typesupport_introspection_c
+[ 32%] Built target turtlesim_lc_interfaces__rosidl_typesupport_cpp
+[ 41%] Built target turtlesim_lc_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target turtlesim_lc_interfaces__rosidl_typesupport_c
+[ 61%] Built target turtlesim_lc_interfaces__rosidl_typesupport_fastrtps_c
+[ 70%] Built target turtlesim_lc_interfaces__rosidl_typesupport_introspection_cpp
+[ 70%] Built target turtlesim_lc_interfaces
+[ 74%] Generating Python code for ROS interfaces
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 8, in <module>
+    from rosidl_generator_py import generate_py
+ImportError: cannot import name 'generate_py' from 'rosidl_generator_py' (/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py)
+gmake[2]: *** [turtlesim_lc_interfaces__py/CMakeFiles/turtlesim_lc_interfaces__py.dir/build.make:155: rosidl_generator_py/turtlesim_lc_interfaces/_turtlesim_lc_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:590: turtlesim_lc_interfaces__py/CMakeFiles/turtlesim_lc_interfaces__py.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing turtlesim_lc_interfaces.egg-info/PKG-INFO
+writing dependency_links to turtlesim_lc_interfaces.egg-info/dependency_links.txt
+writing top-level names to turtlesim_lc_interfaces.egg-info/top_level.txt
+reading manifest file 'turtlesim_lc_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_lc_interfaces.egg-info/SOURCES.txt'
+[ 74%] Built target ament_cmake_python_build_turtlesim_lc_interfaces_egg
+gmake: *** [Makefile:146: all] Error 2

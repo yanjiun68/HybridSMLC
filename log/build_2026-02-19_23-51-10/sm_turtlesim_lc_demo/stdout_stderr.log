@@ -1,0 +1,196 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found smacc2: 2.3.20 (/opt/ros/humble/share/smacc2/cmake)
+-- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+-- Found nav2_lifecycle_manager: 1.1.20 (/opt/ros/humble/share/nav2_lifecycle_manager/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+-- Found turtlesim_lc_interfaces: 0.0.1 (/home/yanjiun68/workspace/Turtlesim_lc_demo/install/turtlesim_lc_interfaces/share/turtlesim_lc_interfaces/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yanjiun68/workspace/Turtlesim_lc_demo/build/sm_turtlesim_lc_demo
+[ 25%] Building CXX object CMakeFiles/square_path_lifecycle_node.dir/src/square_path_lifecycle_node.cpp.o
+[ 50%] Building CXX object CMakeFiles/sm_turtlesim_lc_demo_node.dir/src/sm_turtlesim_lc_demo_node.cpp.o
+In file included from /opt/ros/humble/include/smacc2/smacc_state_machine.hpp:244,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_asynchronous_client_behavior_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_asynchronous_client_behavior.hpp:116,
+                 from /opt/ros/humble/include/smacc2/smacc.hpp:22,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp:3,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/src/sm_turtlesim_lc_demo_node.cpp:1:
+/opt/ros/humble/include/smacc2/impl/smacc_orthogonal_impl.hpp: In instantiation of ‘void smacc2::ISmaccOrthogonal::assignClientToOrthogonal(TClient*) [with TOrthogonal = sm_turtlesim_lc_demo::OrLifecycleManager; TClient = sm_turtlesim_lc_demo::ClLifecycleManager]’:
+/opt/ros/humble/include/smacc2/impl/smacc_orthogonal_impl.hpp:186:66:   required from ‘std::shared_ptr<smacc2::ClientHandler<TOrthogonal, TClient> > smacc2::Orthogonal<TOrthogonal>::createClient(TArgs ...) [with TClient = sm_turtlesim_lc_demo::ClLifecycleManager; TArgs = {}; TOrthogonal = sm_turtlesim_lc_demo::OrLifecycleManager]’
+/home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/orthogonals/or_lifecycle_manager.hpp:14:43:   required from here
+/opt/ros/humble/include/smacc2/impl/smacc_orthogonal_impl.hpp:87:64: warning: ‘void smacc2::ISmaccClient::onOrthogonalAllocation() [with TOrthogonal = sm_turtlesim_lc_demo::OrLifecycleManager; TSourceObject = sm_turtlesim_lc_demo::ClLifecycleManager]’ is deprecated: Use onStateOrthogonalAllocation instead. onOrthogonalAllocation will be removed in future versions. [-Wdeprecated-declarations]
+   87 |   client->template onOrthogonalAllocation<TOrthogonal, TClient>();
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /opt/ros/humble/include/smacc2/impl/smacc_state_machine_impl.hpp:28,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_client_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_state_machine.hpp:242,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_asynchronous_client_behavior_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_asynchronous_client_behavior.hpp:116,
+                 from /opt/ros/humble/include/smacc2/smacc.hpp:22,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp:3,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/src/sm_turtlesim_lc_demo_node.cpp:1:
+/opt/ros/humble/include/smacc2/smacc_client.hpp:99:3: note: declared here
+   99 |   onOrthogonalAllocation()
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/smacc2/smacc_state_machine.hpp:244,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_asynchronous_client_behavior_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_asynchronous_client_behavior.hpp:116,
+                 from /opt/ros/humble/include/smacc2/smacc.hpp:22,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp:3,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/src/sm_turtlesim_lc_demo_node.cpp:1:
+/opt/ros/humble/include/smacc2/impl/smacc_orthogonal_impl.hpp: In instantiation of ‘void smacc2::ISmaccOrthogonal::assignClientToOrthogonal(TClient*) [with TOrthogonal = sm_turtlesim_lc_demo::OrMissionMonitor; TClient = sm_turtlesim_lc_demo::ClMissionMonitor]’:
+/opt/ros/humble/include/smacc2/impl/smacc_orthogonal_impl.hpp:186:66:   required from ‘std::shared_ptr<smacc2::ClientHandler<TOrthogonal, TClient> > smacc2::Orthogonal<TOrthogonal>::createClient(TArgs ...) [with TClient = sm_turtlesim_lc_demo::ClMissionMonitor; TArgs = {}; TOrthogonal = sm_turtlesim_lc_demo::OrMissionMonitor]’
+/home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/orthogonals/or_mission_monitor.hpp:14:41:   required from here
+/opt/ros/humble/include/smacc2/impl/smacc_orthogonal_impl.hpp:87:64: warning: ‘void smacc2::ISmaccClient::onOrthogonalAllocation() [with TOrthogonal = sm_turtlesim_lc_demo::OrMissionMonitor; TSourceObject = sm_turtlesim_lc_demo::ClMissionMonitor]’ is deprecated: Use onStateOrthogonalAllocation instead. onOrthogonalAllocation will be removed in future versions. [-Wdeprecated-declarations]
+   87 |   client->template onOrthogonalAllocation<TOrthogonal, TClient>();
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /opt/ros/humble/include/smacc2/impl/smacc_state_machine_impl.hpp:28,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_client_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_state_machine.hpp:242,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_asynchronous_client_behavior_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_asynchronous_client_behavior.hpp:116,
+                 from /opt/ros/humble/include/smacc2/smacc.hpp:22,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp:3,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/src/sm_turtlesim_lc_demo_node.cpp:1:
+/opt/ros/humble/include/smacc2/smacc_client.hpp:99:3: note: declared here
+   99 |   onOrthogonalAllocation()
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/smacc2/smacc_state_machine.hpp:245,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_asynchronous_client_behavior_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_asynchronous_client_behavior.hpp:116,
+                 from /opt/ros/humble/include/smacc2/smacc.hpp:22,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp:3,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/src/sm_turtlesim_lc_demo_node.cpp:1:
+/opt/ros/humble/include/smacc2/impl/smacc_state_impl.hpp: In instantiation of ‘std::shared_ptr<_Tp> smacc2::ISmaccState::configure(Args&& ...) [with TOrthogonal = sm_turtlesim_lc_demo::OrLifecycleManager; TBehavior = sm_turtlesim_lc_demo::CbShutdownManagedNodes; Args = {}]’:
+/opt/ros/humble/include/smacc2/smacc_state_base.hpp:211:49:   required from ‘static void smacc2::SmaccState<MostDerived, Context, InnerInitial, historyMode>::configure_orthogonal(Args&& ...) [with TOrthogonal = sm_turtlesim_lc_demo::OrLifecycleManager; TBehavior = sm_turtlesim_lc_demo::CbShutdownManagedNodes; Args = {}; MostDerived = sm_turtlesim_lc_demo::StShutdown; Context = sm_turtlesim_lc_demo::SmTurtlesimLcDemo; InnerInitial = boost::mpl::list<mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na>; boost::statechart::history_mode historyMode = boost::statechart::has_deep_history]’
+/home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/states/st_shutdown.hpp:25:69:   required from here
+/opt/ros/humble/include/smacc2/impl/smacc_state_impl.hpp:50:76: warning: ‘void smacc2::ISmaccClientBehavior::onOrthogonalAllocation() [with TOrthogonal = sm_turtlesim_lc_demo::OrLifecycleManager; TSourceObject = sm_turtlesim_lc_demo::CbShutdownManagedNodes]’ is deprecated: Use onStateOrthogonalAllocation instead. onOrthogonalAllocation will be removed in future versions. [-Wdeprecated-declarations]
+   50 |     clientBehavior->template onOrthogonalAllocation<TOrthogonal, TBehavior>();
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /opt/ros/humble/include/smacc2/smacc_client_behavior.hpp:35,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_state_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_state_machine.hpp:245,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_asynchronous_client_behavior_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_asynchronous_client_behavior.hpp:116,
+                 from /opt/ros/humble/include/smacc2/smacc.hpp:22,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp:3,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/src/sm_turtlesim_lc_demo_node.cpp:1:
+/opt/ros/humble/include/smacc2/impl/smacc_client_behavior_impl.hpp:99:6: note: declared here
+   99 | void ISmaccClientBehavior::onOrthogonalAllocation()
+      |      ^~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/smacc2/smacc_state_machine.hpp:245,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_asynchronous_client_behavior_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_asynchronous_client_behavior.hpp:116,
+                 from /opt/ros/humble/include/smacc2/smacc.hpp:22,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp:3,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/src/sm_turtlesim_lc_demo_node.cpp:1:
+/opt/ros/humble/include/smacc2/impl/smacc_state_impl.hpp: In instantiation of ‘std::shared_ptr<_Tp> smacc2::ISmaccState::configure(Args&& ...) [with TOrthogonal = sm_turtlesim_lc_demo::OrLifecycleManager; TBehavior = sm_turtlesim_lc_demo::CbStartupManagedNodes; Args = {}]’:
+/opt/ros/humble/include/smacc2/smacc_state_base.hpp:211:49:   required from ‘static void smacc2::SmaccState<MostDerived, Context, InnerInitial, historyMode>::configure_orthogonal(Args&& ...) [with TOrthogonal = sm_turtlesim_lc_demo::OrLifecycleManager; TBehavior = sm_turtlesim_lc_demo::CbStartupManagedNodes; Args = {}; MostDerived = sm_turtlesim_lc_demo::StStartup; Context = sm_turtlesim_lc_demo::SmTurtlesimLcDemo; InnerInitial = boost::mpl::list<mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na>; boost::statechart::history_mode historyMode = boost::statechart::has_deep_history]’
+/home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/states/st_startup.hpp:25:68:   required from here
+/opt/ros/humble/include/smacc2/impl/smacc_state_impl.hpp:50:76: warning: ‘void smacc2::ISmaccClientBehavior::onOrthogonalAllocation() [with TOrthogonal = sm_turtlesim_lc_demo::OrLifecycleManager; TSourceObject = sm_turtlesim_lc_demo::CbStartupManagedNodes]’ is deprecated: Use onStateOrthogonalAllocation instead. onOrthogonalAllocation will be removed in future versions. [-Wdeprecated-declarations]
+   50 |     clientBehavior->template onOrthogonalAllocation<TOrthogonal, TBehavior>();
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /opt/ros/humble/include/smacc2/smacc_client_behavior.hpp:35,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_state_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_state_machine.hpp:245,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_asynchronous_client_behavior_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_asynchronous_client_behavior.hpp:116,
+                 from /opt/ros/humble/include/smacc2/smacc.hpp:22,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp:3,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/src/sm_turtlesim_lc_demo_node.cpp:1:
+/opt/ros/humble/include/smacc2/impl/smacc_client_behavior_impl.hpp:99:6: note: declared here
+   99 | void ISmaccClientBehavior::onOrthogonalAllocation()
+      |      ^~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/smacc2/smacc_state_machine.hpp:245,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_asynchronous_client_behavior_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_asynchronous_client_behavior.hpp:116,
+                 from /opt/ros/humble/include/smacc2/smacc.hpp:22,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp:3,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/src/sm_turtlesim_lc_demo_node.cpp:1:
+/opt/ros/humble/include/smacc2/impl/smacc_state_impl.hpp: In instantiation of ‘std::shared_ptr<_Tp> smacc2::ISmaccState::configure(Args&& ...) [with TOrthogonal = sm_turtlesim_lc_demo::OrMissionMonitor; TBehavior = sm_turtlesim_lc_demo::CbPublishTermination; Args = {}]’:
+/opt/ros/humble/include/smacc2/smacc_state_base.hpp:211:49:   required from ‘static void smacc2::SmaccState<MostDerived, Context, InnerInitial, historyMode>::configure_orthogonal(Args&& ...) [with TOrthogonal = sm_turtlesim_lc_demo::OrMissionMonitor; TBehavior = sm_turtlesim_lc_demo::CbPublishTermination; Args = {}; MostDerived = sm_turtlesim_lc_demo::StTerminated; Context = sm_turtlesim_lc_demo::SmTurtlesimLcDemo; InnerInitial = boost::mpl::list<mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na, mpl_::na>; boost::statechart::history_mode historyMode = boost::statechart::has_deep_history]’
+/home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/states/st_terminated.hpp:17:65:   required from here
+/opt/ros/humble/include/smacc2/impl/smacc_state_impl.hpp:50:76: warning: ‘void smacc2::ISmaccClientBehavior::onOrthogonalAllocation() [with TOrthogonal = sm_turtlesim_lc_demo::OrMissionMonitor; TSourceObject = sm_turtlesim_lc_demo::CbPublishTermination]’ is deprecated: Use onStateOrthogonalAllocation instead. onOrthogonalAllocation will be removed in future versions. [-Wdeprecated-declarations]
+   50 |     clientBehavior->template onOrthogonalAllocation<TOrthogonal, TBehavior>();
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /opt/ros/humble/include/smacc2/smacc_client_behavior.hpp:35,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_state_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_state_machine.hpp:245,
+                 from /opt/ros/humble/include/smacc2/impl/smacc_asynchronous_client_behavior_impl.hpp:23,
+                 from /opt/ros/humble/include/smacc2/smacc_asynchronous_client_behavior.hpp:116,
+                 from /opt/ros/humble/include/smacc2/smacc.hpp:22,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp:3,
+                 from /home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo/src/sm_turtlesim_lc_demo_node.cpp:1:
+/opt/ros/humble/include/smacc2/impl/smacc_client_behavior_impl.hpp:99:6: note: declared here
+   99 | void ISmaccClientBehavior::onOrthogonalAllocation()
+      |      ^~~~~~~~~~~~~~~~~~~~
+[ 75%] Linking CXX executable square_path_lifecycle_node
+[ 75%] Built target square_path_lifecycle_node
+[100%] Linking CXX executable sm_turtlesim_lc_demo_node
+[100%] Built target sm_turtlesim_lc_demo_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/client_behaviors/cb_publish_termination.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/client_behaviors/cb_shutdown_managed_nodes.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/client_behaviors/cb_startup_managed_nodes.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/clients/cl_lifecycle_manager.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/clients/cl_mission_monitor.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/orthogonals/or_lifecycle_manager.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/orthogonals/or_mission_monitor.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/states/st_error.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/states/st_monitor_mission.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/states/st_shutdown.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/states/st_startup.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/include/sm_turtlesim_lc_demo/states/st_terminated.hpp
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/launch/turtlesim_lc_demo.launch.py
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/lib/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo_node
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/lib/sm_turtlesim_lc_demo/square_path_lifecycle_node
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/ament_index/resource_index/package_run_dependencies/sm_turtlesim_lc_demo
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/ament_index/resource_index/parent_prefix_path/sm_turtlesim_lc_demo
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/environment/ament_prefix_path.sh
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/environment/path.sh
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/environment/path.dsv
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/local_setup.bash
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/local_setup.sh
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/local_setup.zsh
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/local_setup.dsv
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/package.dsv
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/ament_index/resource_index/packages/sm_turtlesim_lc_demo
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/cmake/sm_turtlesim_lc_demoConfig.cmake
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/cmake/sm_turtlesim_lc_demoConfig-version.cmake
+-- Symlinking: /home/yanjiun68/workspace/Turtlesim_lc_demo/install/sm_turtlesim_lc_demo/share/sm_turtlesim_lc_demo/package.xml

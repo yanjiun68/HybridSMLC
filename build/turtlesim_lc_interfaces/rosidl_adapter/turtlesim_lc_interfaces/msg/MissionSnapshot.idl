@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtlesim_lc_interfaces/msg/MissionSnapshot.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Twist.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module turtlesim_lc_interfaces {
+  module msg {
+    struct MissionSnapshot {
+      std_msgs::msg::Header header;
+
+      geometry_msgs::msg::Twist cmd_vel;
+
+      geometry_msgs::msg::Vector3 trajectory_vector;
+
+      uint32 completed_laps;
+
+      uint32 current_side;
+
+      string phase;
+
+      string status;
+
+      boolean mission_done;
+    };
+  };
+};

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-31600cb4fff3b1e3a6d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sm_turtlesim_lc_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sm_turtlesim_lc_demo_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sm_turtlesim_lc_demo_node-2e50204812b9c0ae6ae4.json",
+					"name" : "sm_turtlesim_lc_demo_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sm_turtlesim_lc_demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sm_turtlesim_lc_demo_uninstall-449bc60f442412682f8b.json",
+					"name" : "sm_turtlesim_lc_demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "square_path_lifecycle_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-square_path_lifecycle_node-9e08cde4536d0e5106da.json",
+					"name" : "square_path_lifecycle_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-63c617cdfa6670966859.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yanjiun68/workspace/Turtlesim_lc_demo/build/sm_turtlesim_lc_demo",
+		"source" : "/home/yanjiun68/workspace/Turtlesim_lc_demo/src/sm_turtlesim_lc_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

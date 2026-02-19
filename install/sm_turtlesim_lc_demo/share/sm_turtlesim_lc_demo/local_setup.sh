@@ -1,0 +1,1 @@
+/home/yanjiun68/workspace/Turtlesim_lc_demo/build/sm_turtlesim_lc_demo/ament_cmake_environment_hooks/local_setup.sh

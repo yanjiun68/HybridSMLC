@@ -1,0 +1,1 @@
+rclcpp;rclcpp_lifecycle;smacc2;std_msgs;geometry_msgs;turtlesim;nav2_msgs;nav2_lifecycle_manager;turtlesim_lc_interfaces;ros2launch;ament_lint_auto;ament_lint_common

@@ -1,0 +1,1 @@
+/home/yanjiun68/workspace/Turtlesim_lc_demo/build/turtlesim_lc_interfaces/rosidl_generator_py/turtlesim_lc_interfaces/_turtlesim_lc_interfaces_s.ep.rosidl_typesupport_c.c

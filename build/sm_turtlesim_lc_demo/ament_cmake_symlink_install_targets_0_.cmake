@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yanjiun68/workspace/Turtlesim_lc_demo/build/sm_turtlesim_lc_demo/sm_turtlesim_lc_demo_node" "/home/yanjiun68/workspace/Turtlesim_lc_demo/build/sm_turtlesim_lc_demo/square_path_lifecycle_node" "TARGETS" "sm_turtlesim_lc_demo_node" "square_path_lifecycle_node" "DESTINATION" "lib/sm_turtlesim_lc_demo")

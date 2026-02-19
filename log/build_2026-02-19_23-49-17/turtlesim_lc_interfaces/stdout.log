@@ -1,0 +1,65 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/yanjiun68/miniconda3/bin/python3 (found suitable version "3.13.11", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /home/yanjiun68/miniconda3/lib/libpython3.13.so (found suitable version "3.13.11", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/yanjiun68/miniconda3/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/yanjiun68/miniconda3/include/python3.13
+-- Using PYTHON_LIBRARIES: /home/yanjiun68/miniconda3/lib/libpython3.13.so
+-- Found PythonExtra: .so  
+-- Using numpy include directory: /home/yanjiun68/miniconda3/lib/python3.13/site-packages/numpy/_core/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yanjiun68/workspace/Turtlesim_lc_demo/build/turtlesim_lc_interfaces
+[  3%] Generating C code for ROS interfaces
+[  6%] Generating C++ code for ROS interfaces
+[  6%] Built target ament_cmake_python_symlink_turtlesim_lc_interfaces
+[  6%] Built target turtlesim_lc_interfaces__cpp
+[  9%] Generating C++ type support dispatch for ROS interfaces
+[ 12%] Building C object CMakeFiles/turtlesim_lc_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_lc_interfaces/msg/detail/mission_snapshot__functions.c.o
+[ 16%] Generating C++ introspection for ROS interfaces
+[ 19%] Generating C++ type support for eProsima Fast-RTPS
+running egg_info
+creating turtlesim_lc_interfaces.egg-info
+writing turtlesim_lc_interfaces.egg-info/PKG-INFO
+writing dependency_links to turtlesim_lc_interfaces.egg-info/dependency_links.txt
+writing top-level names to turtlesim_lc_interfaces.egg-info/top_level.txt
+writing manifest file 'turtlesim_lc_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'turtlesim_lc_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_lc_interfaces.egg-info/SOURCES.txt'
+[ 19%] Built target ament_cmake_python_build_turtlesim_lc_interfaces_egg
+[ 22%] Linking C shared library libturtlesim_lc_interfaces__rosidl_generator_c.so
+[ 22%] Built target turtlesim_lc_interfaces__rosidl_generator_c
+[ 25%] Generating C type support for eProsima Fast-RTPS
+[ 29%] Generating C type support dispatch for ROS interfaces
+[ 32%] Generating C introspection for ROS interfaces
+[ 35%] Building CXX object CMakeFiles/turtlesim_lc_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_lc_interfaces/msg/mission_snapshot__type_support.cpp.o
+[ 38%] Building CXX object CMakeFiles/turtlesim_lc_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_lc_interfaces/msg/detail/mission_snapshot__type_support.cpp.o
+[ 41%] Building CXX object CMakeFiles/turtlesim_lc_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_lc_interfaces/msg/detail/dds_fastrtps/mission_snapshot__type_support.cpp.o
+[ 45%] Building C object CMakeFiles/turtlesim_lc_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_lc_interfaces/msg/detail/mission_snapshot__type_support.c.o
+[ 48%] Building CXX object CMakeFiles/turtlesim_lc_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_lc_interfaces/msg/detail/mission_snapshot__type_support_c.cpp.o
+[ 51%] Building CXX object CMakeFiles/turtlesim_lc_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_lc_interfaces/msg/mission_snapshot__type_support.cpp.o
+[ 54%] Linking C shared library libturtlesim_lc_interfaces__rosidl_typesupport_introspection_c.so
+[ 58%] Linking CXX shared library libturtlesim_lc_interfaces__rosidl_typesupport_c.so
+[ 58%] Built target turtlesim_lc_interfaces__rosidl_typesupport_introspection_c
+[ 58%] Built target turtlesim_lc_interfaces__rosidl_typesupport_c
+[ 61%] Linking CXX shared library libturtlesim_lc_interfaces__rosidl_typesupport_cpp.so
+[ 61%] Built target turtlesim_lc_interfaces__rosidl_typesupport_cpp
+[ 64%] Linking CXX shared library libturtlesim_lc_interfaces__rosidl_typesupport_introspection_cpp.so
+[ 67%] Linking CXX shared library libturtlesim_lc_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[ 67%] Built target turtlesim_lc_interfaces__rosidl_typesupport_introspection_cpp
+[ 70%] Linking CXX shared library libturtlesim_lc_interfaces__rosidl_typesupport_fastrtps_c.so
+[ 70%] Built target turtlesim_lc_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target turtlesim_lc_interfaces__rosidl_typesupport_fastrtps_c
+[ 70%] Built target turtlesim_lc_interfaces
+[ 74%] Generating Python code for ROS interfaces
