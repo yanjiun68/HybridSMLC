@@ -93,3 +93,7 @@ It will sit alongside `DETAILED_SETUP_AND_MONITORING.md` and contain:
 1. Filename is `modification_01.md`.
 2. Location is workspace root beside `DETAILED_SETUP_AND_MONITORING.md`.
 3. Content includes both detailed plan and command summary (as requested).
+
+## Fail Cases 
+1. Make sure conda is deactivated and the system uses system python rather than conda python.
+2. 
